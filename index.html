@@ -2,19 +2,36 @@
 
 <html>
 	<head>
-		<title>Cocoon</title>
+		<!-- tab layout -->
+		<link rel="icon" href="https://cdn1.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2/128/night-circle-blue-512.png">
+		<title>Cocoon - Login</title>
+
+		<!-- meta data -->
+		<meta name="description" content="sleep quality monitoring">
+		<meta name="keywords" content="sleep quality, lifestyle, peaceful">
 	</head>
 
 	<body>
-		<h1>Cocoon</h1>
-		<p>This is the first paragraph. <br /> There you have a line break.</p>
-		<hr />
-		<p>Lorem ipsum dolor sit amet, <a href="https://www.google.com/" target="_blank">consectetur</a> adipisicing elit, sed do eiusmod tempor incididunt ut <strong>labore</strong> et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <em>exercitation</em> ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<!-- navigation bar -->
+		<div class="navigation">
+			<a href="index.html">
+				<img src="images/cocoon_logo.jpg" width="100" />
+				<h1>Cocoon</h1>
+			</a>
+		</div>
 
-		<img src="cocoon.jpg" />
+		<!-- login form -->
+		<form action="process.php" method="post">
+			<div class="container">
+				<input type="email" name="username" placeholder="Email address" autocomplete="username">
+			</div>
+			<div class="container">
+				<input type="text" name="password" placeholder="Password" autocomplete="password">
+			</div>
+			<div class="container">
+				<input type="submit" name="signin" value="Next">
+			</div>
+		</form>
 
-		<ul>
-			
-		</ul>
 	</body>
 <html>
