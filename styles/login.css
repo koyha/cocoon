@@ -15,16 +15,17 @@
 .form{
   box-sizing: border-box;
   padding: 20px;
-  border-style: inset;
+  border-style: ;
   width: 400px;
   border-top: 3px solid #40356F;
-  border-radius: 2px;
+  border-radius: 3px;
 }
 
 .container_input{
   padding: 15px;
   padding-left: 20px;
   border-bottom: 1px solid #40356F;
+  -web
 }
 
 .container_next{
@@ -38,6 +39,7 @@
   width: 300px;
   position: relative;
   border: 0;
+  outline: 0px;
 }
 
 .next_button{
@@ -47,6 +49,6 @@
   border-radius: 25px;
   text-align: center;
   font-size: 16px;
-  width: 250px;
+  width: 300px;
   height: 40px;
 }
