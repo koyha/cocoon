@@ -17,14 +17,36 @@
   padding: 20px;
   border-style: inset;
   width: 400px;
-  border-top: 1px solid #f1f1f5;
+  border-top: 3px solid #40356F;
+  border-radius: 2px;
 }
 
-.container{
-  padding: 5px;
+.container_input{
+  padding: 15px;
+  padding-left: 20px;
+  border-bottom: 1px solid #40356F;
+}
+
+.container_next{
+  padding: 20px;
+  padding-top: 30px;
+  padding-left: 50px;
 }
 
 .input_field{
   font-size: .94118em;
+  width: 300px;
   position: relative;
+  border: 0;
+}
+
+.next_button{
+  border: 1px solid hsla(0,0%,0%,0);
+  background-color: #40356F;
+  color: white;
+  border-radius: 25px;
+  text-align: center;
+  font-size: 16px;
+  width: 250px;
+  height: 40px;
 }
