@@ -1,5 +1,7 @@
 body{
-  background-color: #26282a;
+  background-color: #f0f0f5;
+  border: 0px;
+  margin : 0px;
 }
 
 .navigation{
@@ -11,8 +13,23 @@ body{
   padding-left: 50px;
 }
 
+.container_presentation_pic{
+  padding-top: 50px;
+  float: left;
+}
+
+.container_presentation{
+
+}
+
+.presentation_pic{
+  width: 600px;
+  opacity: 0.5;
+}
+
 .form_container{
   padding: 25px;
+  padding-right: 70px;
   float: right;
 }
 
@@ -27,7 +44,7 @@ body{
 }
 
 .container_input{
-  padding: 15px;
+  padding: 20px;
   padding-left: 20px;
   border-bottom: 1px solid #40356F;
   -web
@@ -36,7 +53,7 @@ body{
 .container_next{
   padding: 20px;
   padding-top: 30px;
-  padding-left: 50px;
+  padding-left: 35px;
 }
 
 .input_field{
