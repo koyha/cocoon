@@ -1,3 +1,30 @@
-div{
-  background-color: black;
+.navigation{
+  background-color: #40356F;
+  padding: 20px;
+}
+
+.cocoon_logo{
+  padding-left: 50px;
+}
+
+.form_container{
+  padding: 25px;
+  float: right;
+}
+
+.form{
+  box-sizing: border-box;
+  padding: 20px;
+  border-style: inset;
+  width: 400px;
+  border-top: 1px solid #f1f1f5;
+}
+
+.container{
+  padding: 5px;
+}
+
+.input_field{
+  font-size: .94118em;
+  position: relative;
 }
