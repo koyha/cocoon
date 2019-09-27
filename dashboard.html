@@ -5,6 +5,44 @@
     <!-- tab layout -->
     <link rel="icon" href="images/cocoon_tab.png">
 		<title>Cocoon - Dashboard</title>
+		<script>
+		window.onload = function () {
+
+		var chart = new CanvasJS.Chart("chartContainer", {
+			animationEnabled: true,
+			title:{
+				text: "Last night activity"
+			},
+			axisY: {
+				title: " ",
+				valueFormatString: " ",
+				suffix: " ",
+				prefix: " "
+			},
+			data: [{
+				type: "splineArea",
+				color: "rgb(64, 53, 111)",
+				markerSize: 5,
+				xValueFormatString: "HH",
+				yValueFormatString: " ",
+				dataPoints: [
+					{ x: new Date(2019, 10, 1, 20, 0, 0), y: 3289000 },
+					{ x: new Date(2019, 10, 1, 21, 0, 0), y: 3830000 },
+					{ x: new Date(2019, 10, 1, 22, 0, 0), y: 2009000 },
+					{ x: new Date(2019, 10, 1, 23, 0, 0), y: 2040000 },
+					{ x: new Date(2019, 10, 2, 0, 0, 0), y: 1496000 },
+					{ x: new Date(2019, 10, 2, 1, 0, 0), y: 1513000 },
+					{ x: new Date(2019, 10, 2, 2, 0, 0), y: 2621000 },
+					{ x: new Date(2019, 10, 2, 3, 0, 0), y: 1400000 },
+					{ x: new Date(2019, 10, 2, 4, 0, 0), y: 1397000 },
+					{ x: new Date(2019, 10, 2, 5, 0, 0), y: 2506000 }
+				]
+			}]
+			});
+		chart.render();
+
+		}
+		</script>
 	</head>
 
 	<body>
@@ -21,6 +59,8 @@
     </div>
 
     <!-- sleep quality graph -->
+		<div id="chartContainer" style="height: 300px; width: 100%;"></div>
+		<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 
     <!-- alarm -->
     <p>This is the first paragraph. <br /> There you have a line break.</p>
