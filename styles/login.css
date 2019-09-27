@@ -2,9 +2,9 @@ body{
   background-color: #f0f0f5;
   border: 0px;
   margin : 0px;
-  background-image: image("images/cat_sleeping.jpg");
 }
 
+/* navigation */
 .navigation{
   background-color: #40356F;
   padding: 15px;
@@ -14,23 +14,22 @@ body{
   padding-left: 50px;
 }
 
-.container_presentation_pic{
-  padding-top: 50px;
-  float: left;
-  background-image:;
-}
-
+/* presentation */
 .container_presentation{
   float: left;
-  width: 500px;
+  width: 475px;
   padding: 50px;
+  padding-top: 100px;
+  padding-left: 100px;
 }
 
-.presentation_pic{
-  width: 600px;
-  opacity: 0.5;
+.presentation{
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
 }
 
+/* login form */
 .form_container{
   padding: 100px;
   padding-right: 100px;
