@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--register html 0.2-->
+
+<html>
+	<head>
+		<link rel="stylesheet" text="text/css" href="styles/register.css">
+		<link rel="icon" href="images/cocoon_tab.png">
+		<title>Cocoon - Login</title>
+	</head>	
+	<body>
+		<!-- navigation bar -->
+		<div class="navigation">
+			<a href="index.html">
+				<img src="images/cocoon_logo.jpg" width="200" class="cocoon_logo" />
+			</a>
+		</div>
+
+		<div class="form_container">
+				
+			<form action="process.php" method="post" class="form">
+				<!-- Name -->
+				<div class="container_input">
+					<label class="l1" for="firstname" id="firstname">First Name</label>
+					<input type="text" name="firstname" placeholder="first name" class="input_field" id="firstname">
+				</div>
+
+				<!-- Family Name -->
+				<div class="container_input">
+					<label class="l2" for="familyname" id="familyname">Family Name</label>
+					<input type="text" name="familyname" placeholder="family name" class="input_field">
+				</div>
+
+				<!-- Username -->
+				<div class="container_input">
+					<label class="l3" for="username" id="username">Username</label>
+					<input type="text" name="username" placeholder="username" class="input_field">
+				</div>
+
+				<!-- email -->
+				<div class="container_input">
+					<label class="l4" for="email" id="email">Email</label>
+					<input type="email" name="email" placeholder="email" autocomplete="username" class="input_field">
+				</div>
+
+				<!-- password -->
+				<div class="container_input">
+					<label class="l5" for="password" id="password">Password</label>
+					<input type="password" name="password" placeholder="password" autocomplete="password" class="input_field">
+				</div>
+				
+				<!-- button -->
+				<div class="container_next">
+					<button type="submit" name="" class="container_next"><strong>Register</strong></button>
+				</div>
+
+			</form>
+
+		</div>
+	</body>
+<html>
